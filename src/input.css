@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .back1 {
+    background: #ff0000;
+  }
+  .back2 {
+    background: #ff00ff;
+    @apply bg-blue-600
+  }
+}
