@@ -11,7 +11,7 @@ npx tailwindcss init
 ```
 通过 npm 安装 tailwindcss，会自动创建 tailwind.config.js 配置文件。
 ### 配置模板文件的路径
-```bash
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -22,7 +22,7 @@ module.exports = {
 }
 ```
 ### 将加载 Tailwind 的指令添加到你的 CSS 文件中
-```bash
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
