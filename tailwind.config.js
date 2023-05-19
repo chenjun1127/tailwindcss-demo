@@ -1,10 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  prefix: 'tw-',
-  // 定位index.html文件
-  content: ["./src/**/*.{html,js}"],
+  content: ['./src/**/*.{html,js}'], // 定位index.html文件
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};

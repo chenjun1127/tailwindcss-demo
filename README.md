@@ -12,7 +12,6 @@ npx tailwindcss init
 通过 npm 安装 tailwindcss，会自动创建 tailwind.config.js 配置文件。
 ### 配置模板文件的路径
 ```js
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
